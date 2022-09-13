@@ -1,0 +1,436 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0 !important;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Section_1 */
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/701eec50-4b87-4dc0-9d00-b0f54025dc36/a3e73768-e367-4f45-b205-f9dd8b45fb7e/PK-en-20220905-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    filter: brightness(0.5);
+}
+
+.logo {
+    height: 120px;
+    width: 150px;
+    margin-left: 30px;
+    line-height: normal;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.text {
+    align-self: center;
+    color: white;
+    justify-content:space-around;
+
+    max-width: 100vw;
+    display: inline;
+    
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.text h1 {
+    font-size: 3.5rem;
+}
+.middle{text-align: center;padding-right: 1%;}
+
+.p_1 {
+    font-size: 1.75rem;
+    margin: 1rem auto;
+    max-width: 100vw;
+    font-weight: 400;
+}
+
+.p_2 {
+    font-size: 1.25rem;
+    margin: 1rem auto;
+    max-width:100vw;
+    font-weight: 400;
+}
+
+.signin {
+    height: 30px;
+    width: 80px;
+    color: white;
+    font-size: large;
+    background-color: #e50914;
+    border-radius: 3px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+
+}
+
+.signin:hover {
+    border: 2px solid black;
+}
+
+input {
+    height: 80%;
+    padding: 10px 10px 0;
+    width: 60%;
+    display: inline-block;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    
+}
+
+.label {
+
+    height: 10vh;
+    max-width: 950px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1rem;
+    min-height: 40px;
+    line-height: normal;
+    /* margin: .25em auto; */
+    padding: 0 1em;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+    display: flex;
+    justify-content: center;
+
+}
+.button2{height:50px;width:125;display: flex;}
+
+.a {
+    height: 46px;
+    width: 120px;
+    color: #ffff;
+    background-color: #e50919;
+    text-align:left;
+    padding-top: 12%;
+    padding-left: 5PX;
+    
+    
+    
+
+}
+
+.charvin {
+    fill: #fff;
+    height: 0px;
+    width: 0px;
+    font-size:0;
+    background-color: aqua;
+}
+.carvin img{height: 100% ;width: 100%;}
+
+
+
+
+/* Section_2 */
+.container_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 100vw;
+    background-color: #000;
+}
+
+.short_2 {
+    max-width: 950px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content_2 {
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-self: center;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 100%;
+    max-width: 52%;
+}
+
+.content_2 h1 {
+    font-size: 3rem;
+}
+
+.content_2 h2 {
+    font-size: 1.25rem;
+    margin: .75em 0 .25em;
+}
+
+.video_2 {
+    height: 100%;
+    width: 45%;
+}
+
+.video_2 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Section_3 */
+.container_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 380px;
+    width: 100vw;
+    background-color: #000;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.short_3 {
+    width: 950px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.content_3 {
+    height: 280px;
+    width: 500px;
+    color: #ffffff;
+    text-align: left;
+    order: 2;
+}
+
+.content_3 h1 {
+    font-size: 3.125rem;
+}
+
+.content_3 p {
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: .75em 0 .25em;
+}
+
+.image_3 {
+    height: 280px;
+    width: 320px;
+    order: 1;
+}
+
+.image_3 img {
+    height: 50%;
+    width: 100%;
+}
+
+.download {
+    position: relative;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    border: #222 3px solid;
+    border-radius: 30px;
+    width: 130%;
+    height: 60%;
+    margin: -20px;
+}
+
+.down_3 {
+    height: 60%;
+    width: 20%;
+}
+
+.down_3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.text_3 {
+    width: 30%;
+    height: 60%;
+
+
+}
+
+.text_0 {
+    color: #ffffff;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+.text_1 {
+    color: blue;
+}
+
+.load_3 {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+    width: 20%;
+    height: 60%;
+}
+
+/* Section_4 */
+.container_4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 380px;
+    width: 100vw;
+    background-color: #000;
+}
+
+.short_4 {
+    padding: 70px 45px;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 917px;
+    height: 350px;
+}
+
+.content_4 {
+    height: 100%;
+    width: 52%;
+    color: #ffffff;
+
+    justify-content: column;
+    align-items: center;
+    text-align: column;
+}
+
+.content_4 h1 {
+    font-size: 3rem;
+    align-self: column;
+    text-align: left;
+}
+
+.content_4 p {
+    font-size: 1.325rem;
+    align-self: column;
+    text-align: left;
+    margin: .75em 0 .25em;
+}
+
+/* Section_5 */
+.container_5 {
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 380px;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+}
+
+.short_5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 950px;
+}
+
+.content_5 {
+    color: #ffffff;
+    text-align: center;
+    height: 70%;
+    width: 52%;
+    order: 1;
+}
+
+.content_5 h1 {
+    font-size: 3.125rem;
+    text-align: left;
+}
+
+.content_5 p {
+    font-size: 1.325rem;
+    text-align: left;
+    margin: .75em 0 .25em;
+}
+
+.image_5 {
+    height: 70%;
+    width: 48%;
+    order: 0;
+}
+
+.image_5 img {
+    height: 100%;
+    width: 100%;
+}
+
+/*section 6*/
+.container_6 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    font: 26px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    text-align: center;
+}
+
+.short_6 {
+    /* height: 50%; */
+    /* width: 50%; */
+    display: block;
+    justify-content: center;
+    width: 750px;
+
+}
+
+.h1question {
+    color: #fff;
+    font-size: 3.125rem;
+}
+
+li {
+    list-style-type: none;
+    color: #fff;
+    padding: 20.8px 502px 20.8px 31.2px;
+    background-color: #303030;
+    margin: 0px 0px 8px;
+    /* height: 10px;
+    /* width: 50px; */
+    width: 100%;
+}
+
+button {
+    color: inherit;
+    font: inherit;
+}
+
+ul {
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1.325rem;
+    width: 100%;
+}
+
+svg {
+    transform: translateY(-50%) rotate(-45deg);
+    fill: #fff;
+    height: 1em;
+    width: 1em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: right;
+}
